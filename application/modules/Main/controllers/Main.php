@@ -24,7 +24,7 @@ class Main extends MX_Controller {
 	}
 
 	public function penawaran(){
-		$data["view"] = "penawaran";
+		$data["content"] = "penawaran";
 		$this->load->view('template', $data);
 	}
 }
